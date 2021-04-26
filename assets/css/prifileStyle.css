@@ -1,0 +1,34 @@
+.content div.card{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 15%;
+}
+.content div.card div.card-body{
+    padding: 0;
+    height: 300px;
+}
+/* .general{
+    text-align: center; */
+/* } */
+.kiri{
+    text-align: center;
+    margin: 0;
+    background-image:linear-gradient(yellow, red);
+}
+/* .img-profile{
+    text-align: center; */
+/* } */
+.profile{
+    border-radius: 50%;
+    width: 60%;
+}
+
+.kanan p{
+    color: grey;
+}
+.kanan a{
+    text-decoration: none;
+    color: black;
+}
+
+

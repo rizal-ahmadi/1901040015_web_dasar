@@ -1,0 +1,36 @@
+nav.landing{
+    background: transparent;
+}
+nav.landing a.navbar-brand, nav.landing div#navbarScroll ul li a{
+    color: white;
+}
+
+nav.normal{
+    position: fixed;
+    width: 100%;
+}
+header{
+    background-image: url(../img/cover2.jpg);
+    background-size: cover;
+    height: 640px;
+    /* filter: blur(8px); */
+    /* -webkit-filter: blur(8px); */
+}
+header .detail{
+    position: absolute;
+    bottom:  30%;
+    animation: comeText 10s;
+    animation-direction: alternate;
+}
+header .detail p{
+    color: white;
+    font-weight: bold;
+}
+
+@keyframes comeText {
+    0%   {left: 0px; opacity: 0;}
+    25%  {left: 200px; opacity: 0.1;}
+    50%  {left: 200px; opacity: 0.2;}
+    75%  {left: 0px; opacity: 0.2;}
+    100% {left: 0px; opacity: 1;}
+  }
